@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s6 box-1 active">
+                <h1 class="player-name">Player 1</h1>
+                <h1 class=player-1-score>2</h1>
+                <div class="box-player-1">
+                    <h6>Current</h6>
+                    <h4 class="player-1-current" id="player-1-current">0</h4>
+                </div>
+            </div>
+
+            <div class="col s6 box-2">
+                <h1 class="player-name">Player 2</h1>
+                <h1 class="player-2-score">42</h1>
+                <div class="box-player-2">
+                    <h6>Current</h6>
+                    <h4 class="player-2-current" id="player-2-current">0</h4>
+                </div>
+            </div>
+
+        
+           <button class="new-game" id="newGame"><i class="material-icons">add_circle_outline</i><span>New Game</span></button>
+            <button class="roll-dice" id="rollDice"><i class="material-icons">autorenew</i><span>Roll Dice</span></button>
+            <button class="hold" id="hold-btn"><i class="material-icons">file_download</i><span>Hold</span></button>
+           <p class="help">Rules</p>
+
+            <div class= "dice">
+                <img src="images/dice-5.png" alt="Dice" class= "dicee">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
