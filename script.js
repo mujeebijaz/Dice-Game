@@ -87,6 +87,8 @@ function check(){
             document.querySelector('#player-2-current').textContent = '0';
             player1Score.textContent = '0';
             player2Score.textContent = '0';
+            currentScore = 0;
+            score[0] = 0;
 
         }
     if(total2 >=100)
@@ -96,5 +98,7 @@ function check(){
             document.querySelector('#player-2-current').textContent = '0';
             player1Score.textContent = '0';
             player2Score.textContent = '0';
+            currentScore = 0;
+            score[1] = 0;
         }
 }
