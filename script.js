@@ -19,6 +19,8 @@ newGame.addEventListener('click', function(){
         player1Score.textContent = '0';
         player2Score.textContent = '0';
         document.querySelector('.player-1-current').textContent = '0';   document.querySelector('.player-2-current').textContent = '0';
+        score = [0, 0];
+        currentScore =0;
 
     } else {
         
@@ -88,7 +90,9 @@ function check(){
             player1Score.textContent = '0';
             player2Score.textContent = '0';
             currentScore = 0;
-            score[0] = 0;
+            total1 = 0;
+            total2 =0;
+            score = [0,0];
 
         }
     if(total2 >=100)
@@ -99,6 +103,8 @@ function check(){
             player1Score.textContent = '0';
             player2Score.textContent = '0';
             currentScore = 0;
-            score[1] = 0;
+            total1=0;
+            total2=0;
+            score = [0,0];
         }
 }
